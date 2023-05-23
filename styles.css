@@ -1,0 +1,500 @@
+main, footer, header {
+max-width: 1400px;
+width: 100%;
+margin: 0 auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F4F9E2;
+    padding-top: 30px;
+}
+.trivetalk_head {
+    color: #62D0DF;
+    font-size: 24px;
+    text-transform: none;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+nav {
+    display: flex;
+}
+.nav_link {
+    text-decoration: none; /* подчеркивание ссылок */
+    color: #22356F;
+    display: block;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+/* .nav_link:hover {
+    text-decoration: underline;
+    
+} */
+.unda {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%; /* 0% 100% - слева, 50% 100% - из середины */
+    background-repeat: no-repeat;
+    background-size: 0% 1.6px;
+    transition: background-size 1s;
+ }
+ .unda:hover {
+    text-decoration: none;
+    background-size: 100% 1.6px;
+ }
+.nav_link:not(:last-child){
+    margin-right: 20px;
+}
+.contact_us_button {
+    border-radius: 50px;
+    display: block;
+    background-color: #62D0DF;
+    color: #ffffff;
+    border: 0;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    margin-right: 12%;
+    margin-left: 12%;
+}
+.text_1 {
+    display: flex;
+    background-color: #F4F9E2;
+    font-size: 24px;
+    color: #22356F;
+}
+.helping_title {
+    /* margin: 120px 160px 100px 170px; */
+    padding-top: 8%;
+    padding-left: 12%;
+    /* padding-right: 8%; */
+    max-width: 470px;
+    min-width: 350px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-bottom: 5%;
+    
+}
+.p_in_text_1 {
+    margin-bottom: 80px;
+}
+.trivetalk_text_1 {
+    color: #62D0DF;
+    font-size: 24px;
+    text-transform: none;
+}
+.helping_heading {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+.who_am_i {
+    font-weight: bold;
+    color:#ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #F9B640;
+    border: 0;
+    padding: 20px 35px;
+}
+.what_do_i_do {
+    font-weight: bold;
+    color: #F9B640;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    padding: 20px 35px;
+}
+.foto_v_zagolovke {
+    object-fit: cover;
+}
+h1 {
+    text-transform: uppercase;
+}
+.Why_thrive {
+    /* padding: 131px 160px 75px 170px; */
+    padding-left: 12%;
+    padding-right: 12%;
+    max-width: 550px;
+    min-width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column; /* направление оси (в данном случае вертикальная) */
+    background-color: #62D0DF;
+    color: #ffffff;
+    font-size: 24px;
+}
+.why_thrive_title {
+    margin-bottom: 75px;
+}
+.text_2 {
+    display: flex;
+}
+.girl {
+    object-fit: cover;
+}
+.text_3 {
+    color: #22356F;
+    display: flex;
+    padding: 170px 26% 60px 10%;
+}
+.about_us {
+    white-space: nowrap;
+    margin-right: 26%;
+}
+.about_us_text {
+    font-size: 24px;
+    color: #22356F;
+    font-style: bold;
+    min-width: 270px;
+}
+.features {
+    padding: 0 0px;
+    margin-bottom: 100px;
+}
+.features__wrap {
+    display: flex;
+    height: 360px;
+}
+.features ul li {
+    font-size: 32px;
+    vertical-align: top;
+    margin: 0px 0px;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+.features__wrap div {
+    padding: 30px;
+    width: 100%;
+}
+.Weight_Lifting {
+    color: #ffffff;
+    background-color: #FFE2DE;
+}
+.Running_Spinning {
+    color: #ffffff;
+    background-color: #C4E769;
+}
+.Pumping_Iron {
+    color: #ffffff;
+    background-color: #62D0DF;
+}
+.Pumping_Iron2 {
+    color: #ffffff;
+    background-color: #0052C1;
+}
+.WCHYW {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgba(34, 53, 111, 0.5);
+}
+.features_2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /*3 столбца и 1 хер знает что*/
+    grid-template-rows: repeat(2,480px);
+    margin-bottom: 100px;
+    
+}
+.features_2 h5, .features_2 ul li {
+    font-size: 32px;
+    text-align: center;
+    border-top: 2px solid #ffffff;
+    margin: 100px auto 0;
+    max-width: 300px;
+    padding-top: 10px;
+}
+.features_2 ul li::marker, .features ul li::marker {
+    color: #E9B730;
+}
+.Physical_Health {
+    color:#ffffff;
+    background-color: #22356F;
+}
+.Mental_Health {
+    color:#ffffff;
+    background-color: #0052C1;
+}
+.Nutrition {
+    color:#ffffff;
+    background-image: url(img/yagodniy-smuzi.png);
+    background-size: cover;
+}
+.Gymnastics {
+    color:#ffffff;
+    background-color: #62D0DF;
+}
+.Crossfit {
+    color:#ffffff;
+    background-color: #DEE1FF;
+}
+.Aerobics {
+    color:#ffffff;
+    background-color: #8F00FF;
+}
+.features_3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /*3 столбца и 1 хер знает что*/
+    grid-template-rows: repeat(2,250px);
+    margin-bottom: 10px;
+}
+.features_3_zagolovki {
+    font-size: 28px;
+    color: #22356F;
+}
+.nutritional_plans {
+    /* margin: 0px 100px 0px 100px; */
+    padding: 0 20% 0 20%;
+    color: rgba(34, 53, 111, 0.5);
+}
+.weight_loss {
+    /* margin: 0px 100px 0px 100px; */
+    padding: 0 20% 0 20%;
+    color: rgba(34, 53, 111, 0.5);
+}
+.mental_peace {
+    /* margin: 0px 100px 0px 100px; */
+    padding: 0 20% 0 20%;
+    color: rgba(34, 53, 111, 0.5);
+}
+.home_training {
+    /* margin: 0px 100px 0px 100px; */
+    padding: 0 20% 0 20%;
+    color: rgba(34, 53, 111, 0.5);
+}
+.work_life_balance {
+    /* margin: 0px 100px 0px 100px; */
+    padding: 0 20% 0 20%;
+    color: rgba(34, 53, 111, 0.5);
+}
+.cardio {
+    /* margin: 0px 100px 0px 100px; */
+    padding: 0 20% 0 20%;
+    color: rgba(34, 53, 111, 0.5);
+}
+.You_should_also_know {
+    display: flex;
+}
+.muzhik_za_oknom {
+    object-fit: cover;
+}
+.YSAK {
+    /* padding: 80px 180px 80px 106px; */
+    padding: 6% 10% 6% 10%;
+    color: #22356F;
+    font-size: 36px;
+}
+.YSAK span {
+    color: #6CD3E1;
+}
+.YSAK_title {
+    margin: 0px 0 225px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.MDD {
+    margin-bottom: 160px;
+}
+.section_contact_us {
+    display: flex;
+}
+.ready_set_smile {
+    padding: 8% 15% 8% 15%;
+    font-size: 36px;
+    background-color: #22356F;
+    color: #ffffff;
+}
+.ready_set_smile_title {
+    font-size: 64px;
+    margin: 190px 0px 70px 0px;
+}
+.blackman_Smile {
+    object-fit: cover;
+}
+.get_help_now {
+    text-transform: uppercase;
+    background-color: rgba(0,0,0,0);
+    border: 0;
+    font-size: 16px;
+    color: #62D0DF;
+    margin-top: 40px;
+}
+.contact_us {
+    border: 0;
+    background-color: rgba(0,0,0,0);
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.orange_text {
+    color: #F9B640;
+}
+.footer-content {
+    display: flex;
+    padding: 80px;
+    font-size: 14px;
+}
+.footer-info {
+    display: flex;
+}
+.some_info {
+    margin-right: 30%;
+    max-width: 170px;
+}
+.enfold_health {
+    margin-right: 30%;
+    max-width: 170px;
+}
+.office_hours {
+    max-width: 130px;
+}
+.footer-copyright {
+    color:#ffffff;
+    background-color: #62D0DF;
+    display: flex;
+}
+.autumn_wooman {
+    object-fit: cover;
+}
+.copyright {
+    display: flex;
+    padding-left: 12%;
+    /* padding-left: 180px; */
+}
+.zagolovki_v_futere {
+    text-transform: uppercase;
+    color: #22356F;
+    margin-bottom: 60px;
+}
+.footer_text {
+    color: rgba(34, 53, 111, 0.5);
+}
+.email_link {
+    text-decoration: none;
+    color: #62D0DF;
+}
+/* ниже будет Pop-up */
+.standart-popup__container {
+    top: 0;
+    left: 0;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.74);
+    z-index: 100;
+}
+
+.standart-popup {
+    max-width: 60%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: auto;
+    padding: 20px;
+    overflow-y: auto;
+    max-height: 90%;
+}
+
+.standart-popup::-webkit-scrollbar {
+    width: 10px;
+}
+
+.standart-popup::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.standart-popup::-webkit-scrollbar-thumb {
+    background-color: #e84838;
+    outline: 0px solid #e84838;
+}
+
+.standart-popup__btn {
+    cursor: pointer;
+}
+
+.standart-popup__cross {
+    fill: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 8px;
+    top: 7px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.standart-popup__cross:hover {
+    transform: rotate(180deg);
+}
+
+.fade-in__custom {
+    display: flex;
+    animation: fade-in__custom 1s;
+    opacity: 1;
+    visibility: visible;
+}
+
+@keyframes fade-in__custom {
+    from {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    to {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.fade-out__custom {
+    display: flex;
+    animation: fade-out__custom 1s;
+}
+
+@keyframes fade-out__custom {
+    from {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    to {
+        opacity: 0;
+        visibility: hidden;
+        display: none;
+    }
+}
+
+@media all and (min-width: 1500px) {
+    .standart-popup {
+        max-width: 1000px;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .standart-popup {
+        width: 80%;
+        max-width: 80%;
+    }
+}
+
+@media all and (max-width: 575px) {
+    .standart-popup {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
